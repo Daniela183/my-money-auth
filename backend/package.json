@@ -14,16 +14,15 @@
     "bcrypt": "5.0.0",
     "body-parser": "1.15.2",
     "express": "4.14.0",
-    "express-query-int": "1.0.1",
+    "express-query-int": "3.0.0",
     "jsonwebtoken": "9.0.2",
-    "lodash": "4.17.4",
-    "mongoose": "4.13.19",
+    "lodash": "4.17.10",
+    "mongoose": "5.11.8",
     "mongoose-paginate": "5.0.3",
     "node-restful": "0.2.5",
-    "pm2": "2.1.5",
-    "webpack-dev-server": "4.15.1"
+    "pm2": "3.0.4"
   },
   "devDependencies": {
-    "nodemon": "1.11.0"
+    "nodemon": "1.18.4"
   }
 }
