@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise 
-module.exports = mongoose.createConnection('mongodb+srv://danielasmelo232:@mymoney-backend.hwajhnf.mongodb.net/'
+module.exports = mongoose.createConnection('mongodb+srv://danielasmelo232:<password>@mymoney-backend.hwajhnf.mongodb.net/'
 )
 
 mongoose.Error.messages.general.required = "O atributo '{PATH}' é obrigatório."
@@ -12,7 +12,7 @@ mongoose.Error.messages.String.enum =
     "'{VALUE}' não é válido para o atributo '{PATH}'."
 
 /*const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://danielasmelo232:<ds54433429>@mymoney-backend.hwajhn
+const uri = "mongodb+srv://danielasmelo232:<password>@mymoney-backend.hwajhn
 
 /**const mongoose = require('mongoose')
 const url = process.env.MONGODB_URI ? process.env.MONGODB_URI : 'mongodb//localhost/mymoney'
